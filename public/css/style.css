@@ -1,1 +1,37 @@
+:root {
+  --red-primary: #B91F32;
+  --red-deep: #861B2A;
+  --gold-champagne: #D4AF61;
+  --gold-dark: #A98238;
+  --bg-softwhite: #FAF9F6;
+  --text-dark: #242424;
+}
+
+body {
+  background-color: var(--bg-softwhite);
+  color: var(--text-dark);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gold-champagne);
+  border-radius: 4px;
+}
+
+.rg-card {
+  background: #ffffff;
+  border: 1px solid rgba(212, 175, 97, 0.15);
+  box-shadow: 0 4px 20px -2px rgba(185, 31, 50, 0.05);
+  border-radius: 1rem;
+}
+
+button, a, input, select {
+  transition: all 150ms ease-in-out;
+}
 
